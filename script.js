@@ -14,7 +14,7 @@ const scene = new THREE.Scene();
 // const geometry = new THREE.SphereGeometry(1, 32, 32);
 
 const geometry = new THREE.BufferGeometry();
-const count = 5000;
+const count = 50;
 
 const array = new Float32Array(50 * 9);
 for (let i = 0; i < count * 9; i++) {
